@@ -11,4 +11,6 @@ This project came up to me while finding a solution to display hardware info suc
 # References
 All referenced codes are commented with sources inline. Some opensource modules used are listed here:
 
-<a href="https://ultralig.ht/">Ultalight HTML UI Engine</a>
+<a href="https://ultralig.ht/">Ultalight HTML UI Engine</a> - Frontend UIs
+
+<a href="https://charat.me/en/genesis/">Charat Genesis</a>> - Design Elements (Virtual Character Image)
