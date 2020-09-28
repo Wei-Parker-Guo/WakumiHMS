@@ -1,4 +1,6 @@
-<img src="img/header.png" width="80%" style="margin-left: 50%; margin-right: 50%;">
+<p align="center">
+<img src="img/header.png" width="70%" style="margin-left: 50%; margin-right: 50%;">
+</p>
 
 # Wakumi Hardware Monitoring System
 A client-server style HMS offering sensor info from windows WMI etc. to a platform independent frontend client. The client-server app communication is based on apache and php. WakumiHMS also serves as a remote console of client computers for superusers.
