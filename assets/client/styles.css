@@ -1,0 +1,101 @@
+html {
+	height: 100%;
+}
+
+body {
+	padding-top: 3.5rem;
+	height: 100%;
+}
+
+canvas {
+	height: 100%;
+	width: 100%;
+}
+
+.justify-p {
+	text-align: justify;
+}
+
+h1, h2, h3, h4 {
+	color: white;
+}
+
+.quickstart {
+	padding-top: 3.5rem;
+	padding-bottom: 3.5rem;
+}
+
+.manual-passage {
+	padding-top: 7rem;
+}
+
+.theme-dark {
+	background: linear-gradient(to right, #263238, #263238, #8a412a);
+	background-size: 300% 100%;
+	color: rgba(255, 255, 255, 0.9);
+	text-decoration-color: rgba(255, 255, 255, 0.9);
+	animation: gradient-move ease 30s infinite;
+}
+
+@keyframes gradient-move {
+	0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.inline-link {
+	color: #FFA726;
+}
+
+.inline-link:hover {
+	color: #7E57C2;
+}
+
+.bg-transparent {
+	background-color: transparent;
+	background-image: none;
+}
+
+.btn-main {
+	background-color: #FFA726;
+	text-decoration-color: white;
+	border: none;
+}
+
+.btn-main:hover {
+	background-color: #7E57C2 !important;
+}
+
+.reactive-icon {
+	color: rgba(255, 255, 255, 0.25)
+}
+
+.reactive-icon:hover {
+	color: rgba(255, 255, 255, 0.75)
+}
+
+.center-msg-box {
+	padding-top: 10.5rem;
+	text-align: center;
+}
+
+.center-align {
+	align-content: center;
+	margin: auto;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.left-align {
+	text-align: right;
+	align-content: right;
+	margin: auto;
+}
+
+.prof-icon {
+	border-radius: 10px;
+	opacity: 0.9;
+	box-shadow: 5px 5px 8px #030303;
+}

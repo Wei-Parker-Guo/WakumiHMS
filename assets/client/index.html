@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Wei Guo">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Pytr Renderer Dashboard</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/jumbotron/">
+
+    <!-- Bootstrap core CSS -->
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body class="theme-dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+  <a class="navbar-brand" href="index.html"><img href="index.html" src="assets/media/images/logo-small.png" width="32rem">&nbsp;Pytr</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Dashboard<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="render.html">Render</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="manual.html">Manual</a>
+      </li>
+<!--       <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li> -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Settings</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" href="#">General</a>
+          <a class="dropdown-item" href="#">Ray Casting</a>
+          <a class="dropdown-item" href="#">Shaders</a>
+          <a class="dropdown-item" href="#">Plugins</a>
+          <a class="dropdown-item" href="versions.html">Versions</a>
+        </div>
+      </li>
+    </ul>
+<!--     <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form> -->
+    <svg width="1.25rem" onclick="FireEvent('Minimize')" height="1.25rem" viewBox="0 0 16 16" class="reactive-icon bi bi-dash-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+      <path fill-rule="evenodd" d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z"/>
+    </svg>
+    &nbsp;&nbsp;&nbsp;
+    <svg width="1.25rem" onclick="FireEvent('FullScr')" height="1.25rem" viewBox="0 0 16 16" class="reactive-icon bi bi-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+    </svg>
+    &nbsp;&nbsp;&nbsp;
+    <svg width="1.5rem" onclick="FireEvent('ShutDown')" height="1.5rem" viewBox="0 0 16 16" class="reactive-icon bi bi-power" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M5.578 4.437a5 5 0 1 0 4.922.044l.5-.866a6 6 0 1 1-5.908-.053l.486.875z"/>
+      <path fill-rule="evenodd" d="M7.5 8V1h1v7h-1z"/>
+    </svg>
+  </div>
+</nav>
+
+<main role="main">
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="quickstart">
+    <div class="container">
+      <h1 class="display-3">Quickstart</h1>
+      <p>Please create or load your render profile to begin with. You will then be able to edit the assets and pipelines you need for rendering.
+        There is a <a class="inline-link" href="manual.html">manual</a> provided for extra guidance.</p>
+      <p><a class="btn btn-primary btn-lg btn-main" href="#" role="button">New Profile &raquo;</a></p>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-2 center-align">
+        <h2>Profile<br> Alpha</h2>
+        <p>Date Created: 08/29/2020</p>
+        <p>Title: NEU Town</p>
+      </div>
+      <div class="col-md-2 center-align">
+        <img src="assets/media/images/prof_default_bg.png" width="100%" class="prof-icon">
+      </div>
+
+      <div class="col-md-2 center-align">
+        <h2>Profile<br> Beta</h2>
+        <p>Date Created: 08/29/2020</p>
+        <p>Title: Das Luftschloss</p>
+      </div>
+      <div class="col-md-2 center-align">
+        <img src="assets/media/images/prof_default_bg.png" width="100%" class="prof-icon">
+      </div>
+
+      <div class="col-md-2 center-align">
+        <h2>Profile<br> Cat</h2>
+        <p>Date Created: 08/29/2020</p>
+        <p>Title: さくらの森</p>
+      </div>
+      <div class="col-md-2 center-align">
+        <img src="assets/media/images/prof_default_bg.png" width="100%" class="prof-icon">
+      </div>
+    </div>
+
+    <div class="row justify-p">
+      <div class="col-md-4">
+        <p>Comment: Render profile of a simple northern euro town.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">Open Profile &raquo;</a></p>
+      </div>
+      <div class="col-md-4">
+        <p>Comment: Das Schloss in der Luft, dargestellt vom Illustrator Wei Guo in seinem Roman.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">Open Profile &raquo;</a></p>
+      </div>
+      <div class="col-md-4">
+        <p>Comment: 東京近郊の森。一晩ですべての葉がピンクになります。</p>
+        <p><a class="btn btn-secondary" href="#" role="button">Open Profile &raquo;</a></p>
+      </div>
+    </div>
+
+    <hr>
+
+  </div> <!-- /container -->
+
+</main>
+
+<footer class="container">
+  <p>&copy; Pytr Renderer 2020</p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/EventLogger.js"></script>
+</html>
