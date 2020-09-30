@@ -16,8 +16,8 @@ using namespace ultralight;
 void app_create(Ref<App>& main_app) {
     //create main window to fit as a fullscreen resolution size
     Monitor* main_monitor = main_app->main_monitor();
-    auto main_window = Window::Create(main_monitor, floor(main_monitor->width() / main_monitor->scale() / 1.3),
-        floor(main_monitor->height() / main_monitor->scale() / 1.3), false, kWindowFlags_Borderless);
+    auto main_window = Window::Create(main_monitor, floor(main_monitor->width() / main_monitor->scale()),
+        floor(main_monitor->height() / main_monitor->scale()), false, kWindowFlags_Borderless);
     //set title of this window
     char title_buf[64];
     sprintf_s(title_buf, "%s [version%s]", GlobalInfo::title, GlobalInfo::version);

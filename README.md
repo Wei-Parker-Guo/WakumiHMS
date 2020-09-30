@@ -14,3 +14,5 @@ All referenced codes are commented with sources inline. Some opensource modules 
 <a href="https://ultralig.ht/">Ultalight HTML UI Engine</a> - Frontend UIs
 
 <a href="https://charat.me/en/genesis/">Charat Genesis</a> - Design Elements (Virtual Character Image)
+
+<a href="https://github.com/WLyKan/jQuery.circleProgressBar">JQuery.circleProgressBar</a> - UI Elements (Circular Progress Bars)

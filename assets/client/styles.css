@@ -20,7 +20,7 @@ h1, h2, h3, h4 {
 	color: white;
 }
 
-.quickstart {
+.quickglance {
 	padding-top: 3.5rem;
 	padding-bottom: 3.5rem;
 }
@@ -30,11 +30,11 @@ h1, h2, h3, h4 {
 }
 
 .theme-dark {
-	background: linear-gradient(to right, #263238, #263238, #8a412a);
-	background-size: 300% 100%;
+	background: linear-gradient(to right, #8d91a3, #f4c3d1);
+	background-size: 200% 100%;
 	color: rgba(255, 255, 255, 0.9);
 	text-decoration-color: rgba(255, 255, 255, 0.9);
-	animation: gradient-move ease 30s infinite;
+	animation: gradient-move ease 6s infinite;
 }
 
 @keyframes gradient-move {
@@ -67,35 +67,19 @@ h1, h2, h3, h4 {
 }
 
 .reactive-icon {
-	color: rgba(255, 255, 255, 0.25)
-}
-
-.reactive-icon:hover {
 	color: rgba(255, 255, 255, 0.75)
 }
 
-.center-msg-box {
-	padding-top: 10.5rem;
-	text-align: center;
+.reactive-icon:hover {
+	color: rgba(255, 255, 255, 1)
+}
+
+.circles {
+	width: 300px;
+	height: 300px;
+	margin: auto;
 }
 
 .center-align {
-	align-content: center;
-	margin: auto;
-}
-
-.text-center {
 	text-align: center;
-}
-
-.left-align {
-	text-align: right;
-	align-content: right;
-	margin: auto;
-}
-
-.prof-icon {
-	border-radius: 10px;
-	opacity: 0.9;
-	box-shadow: 5px 5px 8px #030303;
 }
