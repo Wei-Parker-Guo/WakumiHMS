@@ -69,7 +69,7 @@
 
 <main role="main">
 
-  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <!-- quick glance of main hardwares -->
   <div class="quickglance">
     <div id="main-temps" class="row">
       <div class="col-md-4">
@@ -94,7 +94,26 @@
         <h1 class="center-align">SYS TEMP</h1>
       </div>
     </div>
+    <br>
+    <div id="main-usage" class="row">
+    	<div class="usage-bars col-md-6">
+	    	<div id="RAM-bar"></div>
+	    	<br>
+	    	<div id="CPU-bar"></div>
+	    	<br>
+	    	<div id="GPU-bar"></div>
+    	</div>
+    	<div id="usagebar-titles" class="col-md-2">
+    		<h4>RAM USAGE</h4>
+    		<br>
+    		<h4>CPU USAGE</h4>
+    		<br>
+    		<h4>GPU USAGE</h4>
+    	</div>
+    </div>
   </div>
+
+  <!--  -->
 
     <hr>
 
@@ -102,8 +121,8 @@
 
 </main>
 
-<footer class="container">
-  <p>&copy; Wakumi HMS 2020</p>
+<footer class="container-fluid">
+  <p style="text-align: right;">&copy; Wakumi HMS 2020</p>
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="assets/dist/js/bootstrap.bundle.min.js"></script>

@@ -1,7 +1,7 @@
 
 var cpu_paper = Raphael('CPU-circle', $('.CPU-circle').css("width"), $('.CPU-circle').css("height"));
 
-$('.CPU-circle').percentageLoader({
+$(function(){ $('.CPU-circle').percentageLoader({
     //percentage value container
     valElement: 'p',
     //ring width
@@ -16,11 +16,11 @@ $('.CPU-circle').percentageLoader({
     fontWeight: 'normal',
     unit: '°C',
     paper: cpu_paper
-}, cpu_paper);
+}, cpu_paper);});
 
 var gpu_paper = Raphael('GPU-circle', $('.GPU-circle').css("width"), $('.GPU-circle').css("height"));
 
-$('.GPU-circle').percentageLoader({
+$(function(){ $('.GPU-circle').percentageLoader({
     //percentage value container
     valElement: 'p',
     //ring width
@@ -34,11 +34,11 @@ $('.GPU-circle').percentageLoader({
     fontSize: '3.5rem',
     fontWeight: 'normal',
     unit: '°C'
-}, gpu_paper);
+}, gpu_paper);});
 
 var sys_paper = Raphael('SYS-circle', $('.SYS-circle').css("width"), $('.SYS-circle').css("height"));
 
-$('.SYS-circle').percentageLoader({
+$(function(){ $('.SYS-circle').percentageLoader({
     //percentage value container
     valElement: 'p',
     //ring width
@@ -52,8 +52,4 @@ $('.SYS-circle').percentageLoader({
     fontSize: '3.5rem',
     fontWeight: 'normal',
     unit: '°C'
-}, sys_paper);
-
-setTimeout(function(){
-	
-}, 3000);
+}, sys_paper);});
