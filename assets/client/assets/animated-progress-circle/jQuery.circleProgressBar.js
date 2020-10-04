@@ -56,6 +56,7 @@
                     'stroke-width': config.strokeWidth,
                     'stroke': config.bgColor
                 });
+                
                 if (!!val) {
                     z = paper.path().attr({
                         arc: [0.01, 100, r],

@@ -34,7 +34,7 @@ h1, h2, h3, h4 {
 	background-size: 200% 100%;
 	color: rgba(255, 255, 255, 0.9);
 	text-decoration-color: rgba(255, 255, 255, 0.9);
-	animation: gradient-move ease 6s infinite;
+	animation: gradient-move ease 3s infinite;
 }
 
 @keyframes gradient-move {

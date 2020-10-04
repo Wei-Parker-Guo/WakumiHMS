@@ -55,5 +55,5 @@ $('.SYS-circle').percentageLoader({
 }, sys_paper);
 
 setTimeout(function(){
-
+	
 }, 3000);
