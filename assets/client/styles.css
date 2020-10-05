@@ -104,9 +104,19 @@ h1, h2, h3, h4 {
 	background-color: white;
 }
 
+#FAN-bar {
+	width: 70%;
+	height: 2.25rem;
+	background-color: white;
+}
 
 #usagebar-titles {
 	text-align: right;
 	padding: 0;
 	margin: 0;
+}
+
+#status-gif {
+	text-align: center;
+	height: 100%;
 }

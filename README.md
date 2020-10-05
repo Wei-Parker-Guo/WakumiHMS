@@ -15,4 +15,8 @@ All referenced codes are commented with sources inline. Some opensource modules 
 
 <a href="https://charat.me/en/genesis/">Charat Genesis</a> - Design Elements (Virtual Character Image)
 
+<a href="https://dmitrybaranovskiy.github.io/raphael/">Raphaël—JavaScript Library</a> - UI Engine
+
 <a href="https://github.com/WLyKan/jQuery.circleProgressBar">JQuery.circleProgressBar</a> - UI Elements (Circular Progress Bars)
+
+<a href="https://www.behance.net/gallery/31234507/Open-source-Loading-GIF-Icons-Vol-1">Open source Loading GIF Icons Vol-1</a> - UI Elements (Loading Gif)
