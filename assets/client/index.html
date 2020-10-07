@@ -98,6 +98,7 @@
       </div>
     </div>
     <br>
+
     <div id="main-usage" class="row">
     	<div class="usage-bars col-md-6">
 	    	<div id="RAM-bar"></div>
@@ -117,12 +118,44 @@
     		<br>
     		<h4>FAN SPEED</h4>
     	</div>
-    	<div id="status-indicators" class="col-md-4">
-    		<div id="status-gif">
-    			<img src="assets/media/images/loading.gif">
-    		</div>
+    	<div id="sensor-list" class="col-md-4">
+        <div class="row">
+          <div class="col-md-6" style="border-left: solid; margin-left: 15px;">
+            <h4 id="sensor1-content">[NotEquipped]</h4>
+            <br>
+            <h4 id="sensor2-content">[NotEquipped]</h4>
+            <br>
+            <h4 id="sensor3-content">[NotEquipped]</h4>
+            <br>
+            <h4 id="sensor4-content">[NotEquipped]</h4>
+          </div>
+          <div id="sensor-titles" class="col-md-5" style="text-align: right;">
+            <h4 id="sensor1-title">Sensor 1</h4>
+            <br>
+            <h4 id="sensor2-title">Sensor 2</h4>
+            <br>
+            <h4 id="sensor3-title">Sensor 3</h4>
+            <br>
+            <h4 id="sensor4-title">Sensor 4</h4>
+          </div>
+        </div>
     	</div>
     </div>
+    <br>
+
+    <div id="stat-curves" style="border-top: solid;">
+      <br>
+      <div id="stat-curves-plot"></div>
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Performance History</h4>
+        </div>
+        <div class="col-md-8" style="text-align: right; border-left: solid;">
+          <h4>Over Last 19 Hrs</h4>
+        </div>
+      </div>
+    </div>
+
   </div>
 
   <!--  -->

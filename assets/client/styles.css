@@ -116,7 +116,8 @@ h1, h2, h3, h4 {
 	margin: 0;
 }
 
-#status-gif {
-	text-align: center;
-	height: 100%;
+#stat-curves-plot {
+	height: 120px;
+	border-left: solid;
+	border-bottom: solid;
 }
